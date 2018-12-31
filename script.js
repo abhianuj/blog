@@ -91,6 +91,8 @@ function mblog(url) {
   const b = document.getElementById(target);
   const right = document.querySelector('.right');
   right.innerHTML = "";
+  const description = document.querySelector("#desc");
+  description.innerHTML = "";
   b.setAttribute('id','mblog');
 
   //function to add the content of the main blogs
