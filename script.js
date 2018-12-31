@@ -91,7 +91,7 @@ function mblog(url) {
   const b = document.getElementById(target);
   const right = document.querySelector('.right');
   right.innerHTML = "";
-  const descrption = document.querySelector("#desc");
+  const description = document.getElementById("desc");
   description.innerHTML = "";
   b.setAttribute('id','mblog');
 
