@@ -8,10 +8,12 @@ function navigation() {
     if(i==0){
         nav.style.left = "0vw";
         overlay.style.display= "block";
+        body.style.left = "12vw";
         i=1;
     } else {
         nav.style.left = "-77vw";
         overlay.style.display= "none";
+        body.style.left = "0vw";
         i=0;
     }
 }
